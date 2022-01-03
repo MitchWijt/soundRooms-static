@@ -6,7 +6,8 @@ export const FlexContainer = styled.div`
 `
 
 export const UspContainer = styled.div`
-  margin: 450px 50px 0 50px;
+  margin: 250px 50px 150px 50px;
   display: flex;
   flex-direction: row;
+  justify-content: center;
 `
