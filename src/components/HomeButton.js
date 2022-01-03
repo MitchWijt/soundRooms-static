@@ -1,14 +1,14 @@
 import styled from 'styled-components'
 
-export const Button = styled.button`
+export const HomeButton = styled.button`
   color: #ffffff;
   font-family: Inter-Bold;
   background: #54B560;
   border: none;
   border-radius: 50px;
-  height: 100px;
-  width: 330px;
-  font-size: 30px;
+  height: 80px;
+  width: 300px;
+  font-size: 25px;
 
   &:hover {
     cursor: pointer;
