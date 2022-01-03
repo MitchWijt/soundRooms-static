@@ -1,5 +1,5 @@
 import React from 'react'
-import Wrapper from '../../components/Wrapper'
+import { Wrapper } from '../../components/Wrapper'
 import { Title, SubTitle } from '../../components/Title'
 import { HomeButton } from '../../components/HomeButton'
 import { FlexContainer, UspContainer } from '../../components/StyledContainer'
@@ -15,7 +15,7 @@ const Home = () => {
           <HomeButton>Join with Spotify</HomeButton>
         </div>
       </FlexContainer>
-      <UspContainer>
+      <UspContainer margin='250px 50px 150px 50px'>
         <UspItem icon='box' text='Explore / create music rooms' />
         <UspItem icon='users' text='Make friends & connect' />
         <UspItem icon='message-circle' text='Have a chat (voice/message)' />

@@ -6,8 +6,12 @@ export const FlexContainer = styled.div`
 `
 
 export const UspContainer = styled.div`
-  margin: 250px 50px 150px 50px;
+  ${(props) => props.margin ? `margin: ${props.margin}` : ''};
   display: flex;
   flex-direction: row;
   justify-content: center;
+`
+
+export const Container = styled.div`
+  padding: 20px 20px 0 20px;
 `
