@@ -18,6 +18,11 @@ body{
 }
 
 @font-face {
+  font-family: 'inter-light';
+  src: url('./utils/fonts/Inter-Light.ttf');
+}
+
+@font-face {
   font-family: 'inter-medium';
   src: url('./utils/fonts/Inter-Medium.ttf');
 }
